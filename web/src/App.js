@@ -1,9 +1,10 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
-import Home from "./Home";
-import Login from "./Login";
-import NotFound from "./NotFound";
-import restricted from "./Restricted";
+
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+import NotFound from "./pages/NotFound";
+import restricted from "./services/Restricted";
 
 const App = () => (
   <Router>
