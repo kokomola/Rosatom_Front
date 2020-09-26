@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
 
-import Home from "./pages/Home";
-import Login from "./pages/Login";
+import Home from "./pages/home/Home";
+import Login from "./pages/login/Login";
 import NotFound from "./pages/NotFound";
 import restricted from "./services/Restricted";
 

@@ -1,0 +1,55 @@
+h1 {
+    color: #0089ce;
+}
+
+input {
+    border: 3px solid #0089ce;
+    border-radius: 22px;
+    background: #FFFFFF !important;
+    outline: none;
+    color: black;
+    margin: 5px;
+    padding: 4px;
+    padding-left: inherit;
+    width: 50%;
+}
+    
+input:focus {
+    border: 3px solid #0070a9;
+}
+
+button {
+    border: 3px solid #0089ce;
+    border-radius: 16px;
+    background-color:#0089ce;
+    width: 35%;
+    margin: 21px;
+    margin-bottom: 37px;
+    height: 33px;
+    color: white;
+}
+
+button:active, button:focus{
+    outline: none;
+    border: 3px solid#0070a9;
+ }
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-width: 6px;
+    border-color:#0089ce;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 32px;
+    width: 35%;
+}

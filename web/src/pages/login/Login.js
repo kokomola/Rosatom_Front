@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Login.css";
 import PropTypes from "prop-types";
 
 export default class Login extends Component {
@@ -30,19 +31,19 @@ export default class Login extends Component {
 
   render() {
     return (
-      <div>
-        <h1>Login</h1>
-        <p>Name</p>
-        <input onChange={this.handleNameChange} />
-        <p>Password</p>
-        <input
-          type="password"
-          onChange={this.handlePasswordChange}
-          onKeyDown={this.handleKeyDown}
-        />
-        <p>
-          <button onClick={this.handleSubmit}>Submit</button>
-        </p>
+      <div className="container">
+        <div className="inputContainer">
+          <h1>Авторизация</h1>
+          <input placeholder="Логин" onChange={this.handleNameChange} />
+          <input
+            placeholder="Пароль"
+            type="password"
+            onChange={this.handlePasswordChange}
+            onKeyDown={this.handleKeyDown}
+          />
+
+          <button onClick={this.handleSubmit}>Войти</button>
+        </div>
       </div>
     );
   }

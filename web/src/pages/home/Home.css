@@ -1,0 +1,19 @@
+
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0089ce;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 42px;
+}
+
+.container {
+    width: 97%;
+    height: 85.3vh;
+    border-radius: 20px;
+    /* margin-top: 20px; */
+    background-color: white;
+}
