@@ -1,4 +1,10 @@
+table {
+    border-collapse: collapse;
+}
 
+table, td, th {
+    border: 1px solid black;
+}
 
 .mainContainer {
     display: flex;
@@ -10,10 +16,114 @@
     padding-bottom: 42px;
 }
 
-.container {
+.homeContainer {
     width: 97%;
-    height: 85.3vh;
     border-radius: 20px;
-    /* margin-top: 20px; */
     background-color: white;
+}
+
+.zoneContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.zoneTitle {
+    text-align: center;
+    margin: 0px;
+}
+
+.zoneSubtitle {
+    text-align: center;
+    margin: 0;
+    margin-top: 22px;
+    margin-bottom: 5px;
+}
+
+.place {
+    display: flex;
+    background-color: #0089ce;
+    border-radius: 20px;
+    padding: 7px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 10px;
+}
+
+.oovt {
+    display: flex;
+    margin: 25px;
+    padding: 10px;
+    width: 50%;
+    max-width: 50%;
+    overflow: auto;
+    flex-direction: column;
+}
+
+.seatPlace {
+    margin: 2px;
+    width: 55px;
+    height: 55px;
+    border: 2px solid #063f5b;
+    border-radius: 50%;
+    background: #063f5b;
+}
+
+.title {
+    text-align: center;
+}
+
+.production {
+    display: flex;
+    flex-direction: row;
+    margin: 25px;
+    justify-content: center;
+}
+
+.productionZone {
+    display: flex;
+    width: fit-content;
+}
+
+.productionSeatZone {
+    background-color: #0089ce;
+    border-radius: 20px;
+    padding: 7px;
+    margin: 8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.productionSubtitle {
+    text-align: center;
+    margin: 0;
+}
+
+.image {
+    display: flex;
+    width: 59px;
+    height: 59px;
+    margin: 2px;
+}
+
+.containerZone {
+    display: flex;
+}
+
+.containerView {
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 7px;
+    background-color: #0089ce;
+    margin: 25px;
+}
+
+.mainContainerView {
+    display: flex;
+}
+
+.scrollPlaceView {
+    overflow: auto,
 }
