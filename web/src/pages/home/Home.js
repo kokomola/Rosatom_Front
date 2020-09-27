@@ -322,14 +322,6 @@ export default class Home extends Component {
               </div>
             </div>
           </div>
-          <h1 className="title">Площадка №1</h1>
-          <div className="place">
-            <div className="scrollPlaceView">
-              <div style={{ display: "flex" }}>
-                <img src={whiteBarrel} className="image" />
-              </div>
-            </div>
-          </div>
         </div>
       </div>
     );
