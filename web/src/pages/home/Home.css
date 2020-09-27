@@ -100,10 +100,9 @@ table, td, th {
 }
 
 .image {
-    display: flex;
+    position: absolute;
     width: 59px;
     height: 59px;
-    margin: 2px;
 }
 
 .containerZone {
